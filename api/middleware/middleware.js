@@ -26,6 +26,7 @@ async function validateUserId(req, res, next) {
 
 function validateUser(req, res, next) {
   // DO YOUR MAGIC
+  // eslint-disable-next-line no-unused-vars
   const newUser = req.body
   const userName = req.body.name
   if(!userName){
